@@ -24,6 +24,10 @@ public class TreeNode<T, E> {
 
 	private List<TreeNode<T ,E>> children = new ArrayList<>();
 
+	public TreeNode(T data) {
+		this.data = data;
+	}
+
 	public void addChild(TreeNode<T, E> child) {
 
 		this.children.add(child);

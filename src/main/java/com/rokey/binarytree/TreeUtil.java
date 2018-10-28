@@ -6,14 +6,12 @@ import org.apache.commons.collections.CollectionUtils;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * 递归遍历节点,构建树
  * @author chenyuejun
  * @date 2018-07-02 下午5:23
  **/
-@Slf4j
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class TreeUtil {
 

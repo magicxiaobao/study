@@ -9,6 +9,14 @@
   <version>1.0-SNAPSHOT</version>
 
 
+  <repositories>
+    <repository>
+      <id>opensymphony-releases</id>
+      <name>Repository Opensymphony Releases</name>
+      <url>https://oss.sonatype.org/content/repositories/opensymphony-releases</url>
+    </repository>
+  </repositories>
+
   <dependencies>
 
     <dependency>
@@ -39,7 +47,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.0</version>
+      <version>1.18.2</version>
     </dependency>
 
     <dependency>
