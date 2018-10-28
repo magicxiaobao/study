@@ -1,7 +1,7 @@
 package com.rokey.datastrcture.tree;
 
 /**
- * 判断是否是二叉树
+ * 判断是否是二叉查找树
  * 所有左子树节点都小于根节点，所有右子树的节点都大于根节点
  * @author chenyuejun
  * @date 2018-10-28 3:58 PM
