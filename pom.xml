@@ -7,7 +7,7 @@
   <groupId>com.rokey.study</groupId>
   <artifactId>java-study</artifactId>
   <version>1.0-SNAPSHOT</version>
-
+  <name>java-study</name>
 
   <repositories>
     <repository>
