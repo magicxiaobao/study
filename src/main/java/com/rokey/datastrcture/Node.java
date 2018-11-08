@@ -7,9 +7,9 @@ package com.rokey.datastrcture;
 public class Node<T> {
 
 
-	T data;
+	private T data;
 
-	Node<T> next;
+	private Node<T> next;
 
 	public Node(T data) {
 		this.data = data;
@@ -19,4 +19,11 @@ public class Node<T> {
 		return data;
 	}
 
+	public Node<T> getNext() {
+		return next;
+	}
+
+	public void setNext(Node<T> next) {
+		this.next = next;
+	}
 }

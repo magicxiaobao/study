@@ -6,14 +6,13 @@ import com.rokey.datastrcture.Node;
  * @author chenyuejun
  * @date 2018-10-23 8:27 PM
  **/
-public class Stack<T> implements IStack<T>{
+public class Stack<T> implements IStack<T> {
 
 
 	private Node<T> top;
 
 	/**
 	 * 入栈
-	 * @param t
 	 */
 	@Override
 	public void push(T t) {
@@ -22,14 +21,13 @@ public class Stack<T> implements IStack<T>{
 			top = new Node<>(t);
 		} else {
 			Node<T> add = new Node<>(t);
-			add.next = top;
+			add.setNext(top);
 			top = add;
 		}
 	}
 
 	/**
 	 * 出栈
-	 * @return
 	 */
 	@Override
 	public T pop() {
@@ -38,14 +36,13 @@ public class Stack<T> implements IStack<T>{
 			return null;
 		} else {
 			Node<T> temp = top;
-			top = top.next;
+			top = top.getNext();
 			return temp.getData();
 		}
 	}
 
 	/**
 	 * 返回栈顶元素，但不出栈
-	 * @return
 	 */
 	@Override
 	public T peek() {
